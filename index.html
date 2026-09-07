@@ -4,72 +4,1236 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta
+        name="description"
+        content="Mahmoud Madi — Pure Mathematics student at Lebanese University."
+    >
+
     <title>Mahmoud Madi — Pure Mathematics</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-    <a href="#about">About</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
-    <a href="#books">Books</a>
-    <a href="#contact">Contact</a>
-    </nav>
-    <header>
-        <h1>Mahmoud Madi</h1>
-        <p>Pure Mathematics Student</p>
+
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <a href="#top" class="logo" aria-label="Madematics home">
+                made<span>matics</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#teaching">Teaching</a>
+                <a href="#research">Research</a>
+                <a href="#work">Work</a>
+                <a href="#books">Books</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
     </header>
 
-    <main>
 
-        <section id="about">
-            <h2>About</h2>
+    <main id="top">
 
-            <p>
-                🎓 <strong>Education:</strong> 2nd-year Pure Mathematics student.
-            </p>
+        <!-- =========================
+             HERO
+        ========================== -->
 
-            <p>
-                🏆 <strong>Achievements:</strong>
-                Recipient of multiple awards and distinctions in mathematics
-                and academic competitions.
-            </p>
+        <section class="hero">
+            <div class="container hero-grid">
 
-            <p>
-                📚 <strong>Teaching:</strong>
-                Creator and instructor of university-level mathematics courses.
-            </p>
+                <div class="hero-content">
 
-            <p>
-                💻 <strong>Tools:</strong>
-                LaTeX and Python for mathematical writing, exploration,
-                and problem solving.
-            </p>
+                    <p class="eyebrow">
+                        PURE MATHEMATICS · LEBANESE UNIVERSITY
+                    </p>
+
+                    <h1>
+                        Mahmoud<br>
+                        <span>Madi</span>
+                    </h1>
+
+                    <p class="hero-role">
+                        Pure Mathematics Student
+                    </p>
+
+                    <p class="hero-description">
+                        Exploring mathematics through rigorous proofs, abstract
+                        structures, problem solving, and the ideas that connect
+                        different areas of the subject.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#achievements" class="button button-primary">
+                            Explore my work
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Get in touch
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-math" aria-hidden="true">
+
+                    <div class="math-card math-card-main">
+                        <span>∀ ε &gt; 0</span>
+                        <strong>∃ δ &gt; 0</strong>
+                        <small>
+                            rigorous thinking<br>
+                            precise reasoning
+                        </small>
+                    </div>
+
+                    <div class="math-card math-card-small">
+                        <span>∑</span>
+                        <small>proof</small>
+                    </div>
+
+                    <div class="math-card math-card-small second">
+                        <span>∫</span>
+                        <small>analysis</small>
+                    </div>
+
+                </div>
+
+            </div>
         </section>
 
-        <section id="achievements">
-    <h2>Achievements</h2>
 
-    <div class="achievement-card">
-        <div>
-            <span class="achievement-icon">🥇</span>
-            <h3>Euler's Challenge — 1st Place</h3>
-            <p>
-                1st Place out of 45 participants
-            </p>
-        </div>
+        <!-- =========================
+             ABOUT
+        ========================== -->
 
-        <button class="details-button">
-            View Details
-        </button>
-    </div>
+        <section id="about" class="section about-section">
+            <div class="container">
 
+                <div class="section-heading">
+                    <p class="section-number">01</p>
+
+                    <div>
+                        <p class="eyebrow">ABOUT</p>
+                        <h2>A little about me.</h2>
+                    </div>
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-introduction">
+                        <p class="large-text">
+                            I am a 2nd-year Pure Mathematics student interested
+                            in understanding mathematics beyond computation —
+                            through definitions, structures, proofs, and ideas.
+                        </p>
+
+                        <p>
+                            My interests are centered around theoretical
+                            mathematics and the process of solving problems
+                            carefully and building a deeper mathematical
+                            intuition.
+                        </p>
+                    </div>
+
+
+                    <div class="about-facts">
+
+                        <div class="fact">
+                            <span class="fact-icon">🎓</span>
+
+                            <div>
+                                <h3>Education</h3>
+                                <p>
+                                    2nd-year Pure Mathematics student.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="fact">
+                            <span class="fact-icon">🏆</span>
+
+                            <div>
+                                <h3>Achievements</h3>
+                                <p>
+                                    Recipient of multiple awards and
+                                    distinctions in mathematics and academic
+                                    competitions.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="fact">
+                            <span class="fact-icon">📚</span>
+
+                            <div>
+                                <h3>Teaching</h3>
+                                <p>
+                                    Creator and instructor of university-level
+                                    mathematics courses.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="fact">
+                            <span class="fact-icon">💻</span>
+
+                            <div>
+                                <h3>Tools</h3>
+                                <p>
+                                    LaTeX and Python for mathematical writing,
+                                    exploration, and problem solving.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             ACHIEVEMENTS
+        ========================== -->
+
+        <section id="achievements" class="section achievements-section">
+
+            <div class="container">
+
+                <div class="section-heading section-heading-light">
+                    <p class="section-number">02</p>
+
+                    <div>
+                        <p class="eyebrow">ACHIEVEMENTS</p>
+                        <h2>Milestones worth remembering.</h2>
+                    </div>
+                </div>
+
+
+                <div class="achievements-list">
+
+                    <!-- Euler -->
+
+                    <article class="achievement-card achievement-featured">
+
+                        <div class="achievement-rank">
+                            01
+                        </div>
+
+                        <div class="achievement-content">
+
+                            <p class="achievement-label">
+                                HONORS &amp; AWARDS
+                            </p>
+
+                            <h3>
+                                Euler’s Challenge — 1st Place
+                            </h3>
+
+                            <p>
+                                First place in the 2025 Summer Edition,
+                                the inaugural edition of Euler’s Challenge.
+                            </p>
+
+                            <div class="achievement-meta">
+                                <span>1st Place</span>
+                                <span>45 Participants</span>
+                                <span>2025</span>
+                            </div>
+
+                            <button
+                                class="details-button"
+                                type="button"
+                                data-modal="eulerModal"
+                                aria-controls="eulerModal"
+                            >
+                                View Details
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- AUB Math Day -->
+
+                    <article class="achievement-card">
+
+                        <div class="achievement-rank">
+                            02
+                        </div>
+
+                        <div class="achievement-content">
+
+                            <p class="achievement-label">
+                                AWARDS &amp; DISTINCTIONS
+                            </p>
+
+                            <h3>
+                                Lebanese Math Day at AUB — 4th Place
+                            </h3>
+
+                            <p>
+                                4th place in the mathematics trivia
+                                competition at Lebanese Math Day.
+                            </p>
+
+                            <div class="achievement-meta">
+                                <span>4th Place</span>
+                                <span>Mathematics Trivia</span>
+                                <span>AUB</span>
+                            </div>
+
+                            <button
+                                class="details-button"
+                                type="button"
+                                data-modal="aubModal"
+                                aria-controls="aubModal"
+                            >
+                                View Details
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Summer Camp -->
+
+                    <article class="achievement-card">
+
+                        <div class="achievement-rank">
+                            03
+                        </div>
+
+                        <div class="achievement-content">
+
+                            <p class="achievement-label">
+                                ACADEMIC PARTICIPATION
+                            </p>
+
+                            <h3>
+                                AUB Mathematics Summer Camp
+                            </h3>
+
+                            <p>
+                                Participation in a mathematics summer camp
+                                at the American University of Beirut.
+                            </p>
+
+                            <button
+                                class="details-button"
+                                type="button"
+                                data-modal="campModal"
+                                aria-controls="campModal"
+                            >
+                                View Details
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Neural Networks -->
+
+                    <article class="achievement-card">
+
+                        <div class="achievement-rank">
+                            04
+                        </div>
+
+                        <div class="achievement-content">
+
+                            <p class="achievement-label">
+                                ACADEMIC PARTICIPATION
+                            </p>
+
+                            <h3>
+                                Neural Networks Course
+                            </h3>
+
+                            <p>
+                                Participation in a neural networks course
+                                offered by a Japanese university.
+                            </p>
+
+                            <button
+                                class="details-button"
+                                type="button"
+                                data-modal="neuralModal"
+                                aria-controls="neuralModal"
+                            >
+                                View Details
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Mathematical Day -->
+
+                    <article class="achievement-card">
+
+                        <div class="achievement-rank">
+                            05
+                        </div>
+
+                        <div class="achievement-content">
+
+                            <p class="achievement-label">
+                                ACADEMIC PARTICIPATION
+                            </p>
+
+                            <h3>
+                                Mathematical Day at AUB
+                            </h3>
+
+                            <p>
+                                Participation in Mathematical Day at the
+                                American University of Beirut.
+                            </p>
+
+                            <button
+                                class="details-button"
+                                type="button"
+                                data-modal="mathDayModal"
+                                aria-controls="mathDayModal"
+                            >
+                                View Details
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- A-Level -->
+
+                    <article class="achievement-card">
+
+                        <div class="achievement-rank">
+                            06
+                        </div>
+
+                        <div class="achievement-content">
+
+                            <p class="achievement-label">
+                                EARLY MATHEMATICAL STUDIES
+                            </p>
+
+                            <h3>
+                                A-Level Mathematics
+                            </h3>
+
+                            <p>
+                                Earlier mathematical study and academic
+                                certificates that contributed to my
+                                development before university.
+                            </p>
+
+                            <button
+                                class="details-button"
+                                type="button"
+                                data-modal="alevelModal"
+                                aria-controls="alevelModal"
+                            >
+                                View Details
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             TEACHING
+        ========================== -->
+
+        <section id="teaching" class="section teaching-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-number">03</p>
+
+                    <div>
+                        <p class="eyebrow">TEACHING</p>
+                        <h2>Mathematics should be understood.</h2>
+                    </div>
+                </div>
+
+
+                <div class="teaching-grid">
+
+                    <div class="teaching-main">
+
+                        <p class="large-text">
+                            Creator &amp; Instructor
+                        </p>
+
+                        <p>
+                            I create structured university-level mathematics
+                            courses designed around clear explanations,
+                            rigorous reasoning, worked exercises, and practical
+                            study methods.
+                        </p>
+
+                        <p>
+                            My goal is not simply to provide answers, but to
+                            make the underlying mathematical ideas easier to
+                            understand and use.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Ask about my courses →
+                        </a>
+
+                    </div>
+
+
+                    <div class="teaching-card">
+
+                        <div class="teaching-card-symbol">
+                            ∎
+                        </div>
+
+                        <h3>
+                            University Mathematics
+                        </h3>
+
+                        <p>
+                            Explanations · Exercises · Proofs · Study Methods
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             RESEARCH
+        ========================== -->
+
+        <section id="research" class="section research-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-number">04</p>
+
+                    <div>
+                        <p class="eyebrow">RESEARCH</p>
+                        <h2>Learning to explore mathematics.</h2>
+                    </div>
+                </div>
+
+
+                <div class="research-grid">
+
+                    <div class="research-introduction">
+
+                        <p class="large-text">
+                            From learning mathematics to asking mathematical
+                            questions.
+                        </p>
+
+                        <p>
+                            I am developing my experience with mathematical
+                            research by reading papers, understanding existing
+                            ideas, exploring problems, and learning how
+                            mathematical results are developed and communicated.
+                        </p>
+
+                    </div>
+
+
+                    <div class="research-topics">
+
+                        <div class="topic">
+                            <span>01</span>
+                            <h3>Theoretical Mathematics</h3>
+                            <p>
+                                Abstract structures, rigorous definitions,
+                                and proof-based reasoning.
+                            </p>
+                        </div>
+
+                        <div class="topic">
+                            <span>02</span>
+                            <h3>Problem Solving</h3>
+                            <p>
+                                Exploring difficult problems and searching
+                                for elegant mathematical approaches.
+                            </p>
+                        </div>
+
+                        <div class="topic">
+                            <span>03</span>
+                            <h3>Mathematical Writing</h3>
+                            <p>
+                                Learning to communicate mathematical ideas
+                                precisely using modern tools.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             MATHEMATICAL WORK
+        ========================== -->
+
+        <section id="work" class="section work-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-number">05</p>
+
+                    <div>
+                        <p class="eyebrow">MATHEMATICAL WORK</p>
+                        <h2>Things I build and explore.</h2>
+                    </div>
+                </div>
+
+
+                <div class="work-grid">
+
+                    <article class="work-card">
+                        <span class="work-number">01</span>
+
+                        <div>
+                            <h3>Proofs &amp; Problem Solving</h3>
+
+                            <p>
+                                Mathematical problems, proofs, ideas, and
+                                explorations developed throughout my studies.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="work-card">
+                        <span class="work-number">02</span>
+
+                        <div>
+                            <h3>LaTeX</h3>
+
+                            <p>
+                                Structured mathematical notes, documents,
+                                formulas, and academic writing.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="work-card">
+                        <span class="work-number">03</span>
+
+                        <div>
+                            <h3>Python</h3>
+
+                            <p>
+                                Programming for mathematical exploration,
+                                experimentation, and problem solving.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="work-card">
+                        <span class="work-number">04</span>
+
+                        <div>
+                            <h3>Mathematical Notes</h3>
+
+                            <p>
+                                Personal notes and explanations developed
+                                while studying pure mathematics.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             BOOKS & RESOURCES
+        ========================== -->
+
+        <section id="books" class="section books-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-number">06</p>
+
+                    <div>
+                        <p class="eyebrow">BOOKS &amp; RESOURCES</p>
+                        <h2>The mathematics behind the journey.</h2>
+                    </div>
+                </div>
+
+
+                <div class="books-layout">
+
+                    <div class="books-introduction">
+
+                        <p class="large-text">
+                            Books are more than references — they shape the
+                            way mathematical ideas are understood.
+                        </p>
+
+                        <p>
+                            This section will grow with my mathematical
+                            library, reading notes, recommendations, and
+                            resources that have influenced my studies.
+                        </p>
+
+                    </div>
+
+
+                    <div class="resource-list">
+
+                        <div class="resource-item">
+                            <span>01</span>
+                            <div>
+                                <h3>Mathematical Books</h3>
+                                <p>
+                                    Books studied throughout my mathematical
+                                    education.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="resource-item">
+                            <span>02</span>
+                            <div>
+                                <h3>Study Notes</h3>
+                                <p>
+                                    Personal notes and mathematical summaries.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="resource-item">
+                            <span>03</span>
+                            <div>
+                                <h3>Useful Resources</h3>
+                                <p>
+                                    Websites, papers, courses, and references
+                                    worth keeping.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div>
+                        <p class="eyebrow">CONTACT</p>
+
+                        <h2>
+                            Let’s talk mathematics.
+                        </h2>
+
+                        <p>
+                            For academic opportunities, mathematics-related
+                            projects, teaching, or collaboration.
+                        </p>
+                    </div>
+
+
+                    <div class="contact-actions">
+
+                        <!-- Replace the placeholder email later -->
+                        <a
+                            href="mailto:YOUR_EMAIL@example.com"
+                            class="button button-light"
+                        >
+                            Email me
+                        </a>
+
+                        <p class="contact-note">
+                            Replace the email address with your real contact.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
         </section>
 
     </main>
-<script src="script.js"></script>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#top" class="logo footer-logo">
+                    made<span>matics</span>
+                </a>
+
+                <p>
+                    Pure Mathematics · Lebanese University
+                </p>
+            </div>
+
+
+            <p class="copyright">
+                © 2026 Mahmoud Madi
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==================================================
+         MODALS
+         ================================================== -->
+
+
+    <!-- Euler's Challenge Modal -->
+
+    <div
+        class="modal"
+        id="eulerModal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="eulerModalTitle"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay" data-close-modal></div>
+
+        <div class="modal-window">
+
+            <button
+                class="modal-close"
+                type="button"
+                data-close-modal
+                aria-label="Close window"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow">HONORS &amp; AWARDS</p>
+
+            <h2 id="eulerModalTitle">
+                Euler’s Challenge
+            </h2>
+
+            <p class="modal-subtitle">
+                1st Place · 2025 Summer Edition
+            </p>
+
+
+            <div class="modal-stat-grid">
+
+                <div>
+                    <strong>1st</strong>
+                    <span>Place</span>
+                </div>
+
+                <div>
+                    <strong>45</strong>
+                    <span>Participants</span>
+                </div>
+
+                <div>
+                    <strong>18/35</strong>
+                    <span>Score</span>
+                </div>
+
+            </div>
+
+
+            <div class="modal-text">
+
+                <p>
+                    I achieved first place in the 2025 Summer Edition of
+                    Euler’s Challenge, the inaugural edition of the
+                    competition.
+                </p>
+
+                <p>
+                    My score was <strong>18/35</strong>, compared with an
+                    average score of <strong>2/35</strong> and a median of
+                    <strong>0/35</strong>.
+                </p>
+
+                <p>
+                    The second-place score was 12/35, while the third-place
+                    score was 9/35.
+                </p>
+
+            </div>
+
+
+            <div class="evidence-grid">
+
+                <figure class="evidence-item">
+                    <div class="media-placeholder">
+                        <span>Certificate</span>
+                        <small>
+                            Add: images/euler-certificate.jpg
+                        </small>
+                    </div>
+
+                    <figcaption>
+                        Official certificate
+                    </figcaption>
+                </figure>
+
+
+                <figure class="evidence-item">
+                    <div class="media-placeholder">
+                        <span>Trophy</span>
+                        <small>
+                            Add: images/euler-trophy.jpg
+                        </small>
+                    </div>
+
+                    <figcaption>
+                        Physical trophy
+                    </figcaption>
+                </figure>
+
+
+                <figure class="evidence-item">
+                    <div class="media-placeholder">
+                        <span>Hall of Fame</span>
+                        <small>
+                            Add: images/euler-hall-of-fame.jpg
+                        </small>
+                    </div>
+
+                    <figcaption>
+                        Hall of Fame entry
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- AUB Math Day Modal -->
+
+    <div
+        class="modal"
+        id="aubModal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="aubModalTitle"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay" data-close-modal></div>
+
+        <div class="modal-window">
+
+            <button
+                class="modal-close"
+                type="button"
+                data-close-modal
+                aria-label="Close window"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow">
+                AWARDS &amp; DISTINCTIONS
+            </p>
+
+            <h2 id="aubModalTitle">
+                Lebanese Math Day at AUB
+            </h2>
+
+            <p class="modal-subtitle">
+                4th Place · Mathematics Trivia
+            </p>
+
+            <div class="modal-text">
+
+                <p>
+                    I placed 4th in the mathematics trivia competition
+                    during Lebanese Math Day at the American University
+                    of Beirut.
+                </p>
+
+                <p>
+                    The event brought together students with different
+                    levels of mathematical experience and provided an
+                    opportunity to compete and engage with mathematics
+                    outside the regular university curriculum.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Mathematics Summer Camp Modal -->
+
+    <div
+        class="modal"
+        id="campModal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="campModalTitle"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay" data-close-modal></div>
+
+        <div class="modal-window">
+
+            <button
+                class="modal-close"
+                type="button"
+                data-close-modal
+                aria-label="Close window"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow">
+                ACADEMIC PARTICIPATION
+            </p>
+
+            <h2 id="campModalTitle">
+                AUB Mathematics Summer Camp
+            </h2>
+
+            <p class="modal-subtitle">
+                Participation
+            </p>
+
+            <div class="modal-text">
+                <p>
+                    Participation in a mathematics summer camp at the
+                    American University of Beirut.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Neural Networks Modal -->
+
+    <div
+        class="modal"
+        id="neuralModal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="neuralModalTitle"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay" data-close-modal></div>
+
+        <div class="modal-window">
+
+            <button
+                class="modal-close"
+                type="button"
+                data-close-modal
+                aria-label="Close window"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow">
+                ACADEMIC PARTICIPATION
+            </p>
+
+            <h2 id="neuralModalTitle">
+                Neural Networks Course
+            </h2>
+
+            <p class="modal-subtitle">
+                Participation
+            </p>
+
+            <div class="modal-text">
+                <p>
+                    Participation in a neural networks course offered by
+                    a Japanese university.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Mathematical Day Modal -->
+
+    <div
+        class="modal"
+        id="mathDayModal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="mathDayModalTitle"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay" data-close-modal></div>
+
+        <div class="modal-window">
+
+            <button
+                class="modal-close"
+                type="button"
+                data-close-modal
+                aria-label="Close window"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow">
+                ACADEMIC PARTICIPATION
+            </p>
+
+            <h2 id="mathDayModalTitle">
+                Mathematical Day at AUB
+            </h2>
+
+            <p class="modal-subtitle">
+                Participation
+            </p>
+
+            <div class="modal-text">
+                <p>
+                    Participation in Mathematical Day at the American
+                    University of Beirut.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- A-Level Modal -->
+
+    <div
+        class="modal"
+        id="alevelModal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="alevelModalTitle"
+        aria-hidden="true"
+    >
+
+        <div class="modal-overlay" data-close-modal></div>
+
+        <div class="modal-window">
+
+            <button
+                class="modal-close"
+                type="button"
+                data-close-modal
+                aria-label="Close window"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow">
+                EARLY MATHEMATICAL STUDIES
+            </p>
+
+            <h2 id="alevelModalTitle">
+                A-Level Mathematics
+            </h2>
+
+            <p class="modal-subtitle">
+                Early Mathematical Studies
+            </p>
+
+            <div class="modal-text">
+                <p>
+                    Earlier mathematical study and academic certificates
+                    that formed part of my preparation for university-level
+                    mathematics.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+         ========================== -->
+
+    <script src="script.js"></script>
+
 </body>
 </html>

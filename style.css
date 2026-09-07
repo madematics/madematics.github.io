@@ -99,5 +99,42 @@ section p strong {
 
     section h2 {
         font-size: 1.7rem;
+    /* Navigation */
     }
+
+nav {
+    position: sticky;
+    top: 15px;
+    z-index: 1000;
+
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 14px 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    background: rgba(17, 24, 45, 0.9);
+    border: 1px solid #26304d;
+    border-radius: 16px;
+
+    backdrop-filter: blur(12px);
+}
+
+nav a {
+    padding: 8px 14px;
+    border-radius: 10px;
+
+    color: #c5cde0;
+    font-size: 0.95rem;
+
+    transition: 0.2s ease;
+}
+
+nav a:hover {
+    background: #26304d;
+    color: #ffffff;
+}
 }
